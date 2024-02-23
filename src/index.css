@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+
+body {
+  background-color: #f8f6f6;
+}
+
+.wrapper {
+  max-width: 600px;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top: 70px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 82%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 9px 12px;
+  background-color: #2A69F8;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4177f7;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+.Todo {
+  cursor: pointer;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Todo p {
+  margin: 0;
+  flex-grow: 1;
+}
+
+.Todo-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button {
+  background-color: #2A69F8;
+}
+
+.edit-button:hover {
+  background-color: #4177f7;
+}
+
+.delete-button {
+  background-color: #f42027;
+}
+.delete-button:hover {
+  background-color: #f74148;
+}
+
+.cancel-button {
+  background-color: #f42027;
+}
+.cancel-button:hover {
+  background-color: #f74148;
+}
+
+.error-message {
+  color: red;
+}
+
+.completed {
+  background-color: #f0f8ff; 
+}
+
+.completed-task {
+  text-decoration: line-through;
+  cursor: pointer;
+}
